@@ -1,0 +1,88 @@
+* {
+    font-size: 16px;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+
+/*Margin & Paddings: */
+.my-1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.px-2 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*FLEX Utils Start: */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.space-between{
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+/*Flex Utils END */
+
+/* Decorations*/
+.bg-red {
+    background-color: red;
+}
+
+.txt-green {
+  color: rgb(67, 162, 86);
+  
+}
+
+.bold {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.bolder {
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+
+.btn {
+ background-color:rgb(67, 162, 86); 
+ border-radius: 0.8rem white;   
+ border:0.35rem solid white;
+ padding:0.5rem 1rem;
+ cursor: pointer;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.description {
+    color:rgb(17, 15, 15);
+}
+

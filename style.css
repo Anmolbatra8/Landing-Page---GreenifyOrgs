@@ -1,0 +1,172 @@
+* {
+margin: 0;
+padding: 0;
+font-size: 16px;
+}
+
+.logo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 85vw;
+}
+
+.navbar {
+    display: flex;
+    height: 3rem;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 1em;
+}
+.section2 {
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+.section2 p {
+    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.topleft {
+    width: 50%;
+    
+}
+
+.topright {
+    width: 50%;  
+    
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.top-left-img {
+    width: 50%;
+    height: 40%;
+    align-self: center;
+    margin-bottom: 2rem;
+    padding-top: 0rem;
+    padding: 1.2rem;
+}
+
+.top-right-img {
+    width: 90%;
+    height: 80%;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    overflow-x: hidden;
+
+}
+.top-left-text {
+    font-size: large;
+    
+}
+
+
+/* SECTION 2 */
+.section2 h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.price-box {
+    margin: 2rem 1rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    border: 1px solid rgb(67, 162, 86);
+    border-radius: 0.4rem;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.price-box h4 {
+    margin:0.2rem;
+    padding: 0.3rem;
+    background-color: rgb(231, 230, 229);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor:pointer;
+    width: 90%;
+}
+
+.price-box ul {
+    list-style-type: none;
+    margin-top: 1.2rem;
+}
+
+.price-box ul li {
+    margin:1rem;
+}
+
+.priceval {
+    font-size: 1.5rem;
+}
+
+.price-box button {
+    width: 100%;
+}
+/* SECTION 3 */
+ 
+.section3 table {
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: -6rem;
+    border-collapse: collapse;
+}
+
+.section3 h1 {
+    font-size: 3rem;
+    line-height: 1.2;   
+}
+
+.section3 th ,td {
+    border-bottom: solid 2px black;
+   margin: 1rem;
+   padding: 1.2rem;
+width: 33%;
+}
+
+.price-table {
+    margin-left: -2rem;
+}
+
+.footer-container {
+    margin-left: 12rem;
+}
+
+.footer-container h5{
+    margin-bottom: 2rem;
+}
+
+.footer-container li {
+    
+ list-style-type: none;
+ margin: 0.5rem;
+}
+
+.footer-container a {
+   color: inherit;
+   text-decoration: none;
+   line-height: 1.1;
+   padding: 0.5rem;
+}
+
+.footer-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.footer-resources , .footer-about,.footer-features,.footer-copyright {
+    margin: 2rem;
+    padding: 0.7rem;
+
+}
